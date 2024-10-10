@@ -155,7 +155,7 @@
 ### 2. [MDN Web Docs (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
-3. CSS-Tricks
+3. [CSS-Tricks](https://css-tricks.com/)
 URL: css-tricks.com
 
 4. The Odin Project
