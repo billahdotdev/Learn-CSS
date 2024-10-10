@@ -122,6 +122,32 @@
           font-family: "IBM Plex Mono";
         }
 
+        h1 {
+          display: block;
+          margin-bottom: 40px;
+          color: #101010;
+          position: relative;
+          font-weight: 700;
+        }
+        input {
+          border: none;
+          background: #e0e0e0;
+          padding: 10px 15px;
+          font-size: 16px;
+          font-weight: 500;
+          font-family: "IBM Plex Mono";
+          outline: none;
+        }
+        button {
+          background: #fff;
+          padding: 9px 25px;
+          border: none;
+          font-size: 18px;
+          font-family: "IBM Plex Mono";
+          font-weight: 700;
+          cursor: pointer;
+          box-shadow: 0px 15px 25px rgba(16,16,16,0.25);
+        }
 
 
   
