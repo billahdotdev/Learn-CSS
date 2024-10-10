@@ -171,8 +171,8 @@
 
 
 
-### 8. YouTube: Traversy Media
-URL: Traversy Media
+### 8. [YouTube: Traversy Media](https://www.youtube.com/watch?v=yfoY53QXEnI)
+
 
   
 
