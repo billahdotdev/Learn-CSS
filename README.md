@@ -110,6 +110,16 @@
 
 
 #What does the CSS code look like?
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ededed;
+  font-family: "IBM Plex Mono";
+}
 
 
 
