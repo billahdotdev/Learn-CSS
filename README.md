@@ -155,23 +155,23 @@
 ### 2. [MDN Web Docs (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
-3. [CSS-Tricks](https://css-tricks.com/)
-URL: css-tricks.com
-
-4. [The Odin Project](https://www.theodinproject.com/lessons/foundations-intro-to-css)
+### 3. [CSS-Tricks](https://css-tricks.com/)
 
 
-5. CSS Grid Garden
+### 4. [The Odin Project](https://www.theodinproject.com/lessons/foundations-intro-to-css)
+
+
+### 5. CSS Grid Garden
 URL: cssgridgarden.com
 
-6. Flexbox Froggy
+### 6. Flexbox Froggy
 URL: flexboxfroggy.com
 
-7. W3Schools
+### 7. W3Schools
 URL: w3schools.com
 
 
-12. YouTube: Traversy Media
+### 8. YouTube: Traversy Media
 URL: Traversy Media
 
   
