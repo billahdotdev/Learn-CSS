@@ -152,8 +152,7 @@
 # Where can I start learning CSS?
 
 ### 1. [FreeCodeCamp](https://www.freecodecamp.org/)
-
-2. [MDN Web Docs (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+### 2. [MDN Web Docs (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 3. CSS-Tricks
