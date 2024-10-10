@@ -153,9 +153,8 @@
 
 ### 1. [FreeCodeCamp](https://www.freecodecamp.org/)
 
+2. [MDN Web Docs (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-2. MDN Web Docs (Mozilla)
-URL: developer.mozilla.org
 
 3. CSS-Tricks
 URL: css-tricks.com
