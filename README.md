@@ -165,10 +165,10 @@
 
 
 ### 6. [Flexbox Froggy](https://flexboxfroggy.com/)
-URL: flexboxfroggy.com
 
-### 7. W3Schools
-URL: w3schools.com
+
+### 7. [W3Schools](https://www.w3schools.com/css/default.asp)
+
 
 
 ### 8. YouTube: Traversy Media
