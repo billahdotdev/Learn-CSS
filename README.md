@@ -161,7 +161,7 @@
 ### 4. [The Odin Project](https://www.theodinproject.com/lessons/foundations-intro-to-css)
 
 
-### 5. CSS Grid Garden
+### 5. [CSS Grid Garden](https://cssgridgarden.com/)
 URL: cssgridgarden.com
 
 ### 6. Flexbox Froggy
