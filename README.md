@@ -163,10 +163,10 @@
 
   
 # How Does CSS Work?
-CSS controls the visual appearance of HTML elements by associating CSS rules with HTML elements. A CSS rule typically consists of:
+## CSS controls the visual appearance of HTML elements by associating CSS rules with HTML elements. A CSS rule typically consists of:
 
-Selectors: Identify the HTML elements you want to style.
+### Selectors: Identify the HTML elements you want to style.
 
-Properties: Specify the aspects of the element you want to style (like color, size, etc.).
+### Properties: Specify the aspects of the element you want to style (like color, size, etc.).
 
-Values: Define how the properties should look (e.g., red, 16px, etc.).
+### Values: Define how the properties should look (e.g., red, 16px, etc.).
