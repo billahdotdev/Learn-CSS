@@ -177,7 +177,52 @@ CSS Syntax:
         }
 
 
+# Applying CSS to an HTML File
+You can include CSS in three ways:
 
+1. Inline CSS: Directly within an HTML tag using the style attribute.
+2. Internal CSS: Inside a <style> tag within the <head> section of an HTML document.
+3. External CSS: By linking to an external CSS file using the <link> tag.
+
+Example 1: Inline CSS
+
+          <p style="color: red; font-size: 20px;">This is a red paragraph.</p>
+          
+Example 2: Internal CSS
+
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <style>
+              p {
+                color: green;
+                font-size: 18px;
+              }
+            </style>
+          </head>
+          <body>
+            <p>This is a green paragraph.</p>
+          </body>
+          </html>
+          
+Example 3: External CSS
+
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <link rel="stylesheet" href="styles.css">
+          </head>
+          <body>
+            <p>This is styled from an external CSS file.</p>
+          </body>
+          </html>
+          
+In the styles.css file:
+
+          p {
+            color: purple;
+            font-size: 22px;
+          }
 
 
 
