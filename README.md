@@ -245,11 +245,11 @@ This will style all <p> tags.
       
 ### ID Selector: Targets an element with a specific ID.
 
-#my-id {
-  color: green;
-}
-HTML:
-<p id="my-id">This text is green.</p>
+      #my-id {
+        color: green;
+      }
+      HTML:
+      <p id="my-id">This text is green.</p>
 Universal Selector: Targets all elements on the page.
 
 
