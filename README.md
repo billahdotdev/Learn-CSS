@@ -241,7 +241,9 @@ This will style all <p> tags.
       }
       HTML:
       <p class="my-class">This text is red.</p>
-ID Selector: Targets an element with a specific ID.
+
+      
+### ID Selector: Targets an element with a specific ID.
 
 #my-id {
   color: green;
