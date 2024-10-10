@@ -253,9 +253,9 @@ This will style all <p> tags.
 Universal Selector: Targets all elements on the page.
 
 
-* {
-  color: black;
-}
+      * {
+        color: black;
+      }
 Grouping Selectors: Combine multiple selectors to apply the same styles.
 
 
