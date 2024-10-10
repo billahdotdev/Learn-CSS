@@ -259,15 +259,15 @@ Universal Selector: Targets all elements on the page.
 Grouping Selectors: Combine multiple selectors to apply the same styles.
 
 
-h1, h2, h3 {
-  color: purple;
-}
+      h1, h2, h3 {
+        color: purple;
+      }
 Descendant Selector: Selects elements inside another element.
 
 
-div p {
-  color: blue;
-}
+      div p {
+        color: blue;
+      }
 
 
 # Where can I start learning CSS?
