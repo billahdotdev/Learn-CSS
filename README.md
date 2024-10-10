@@ -162,7 +162,7 @@
 
 
 ### 5. [CSS Grid Garden](https://cssgridgarden.com/)
-URL: cssgridgarden.com
+
 
 ### 6. Flexbox Froggy
 URL: flexboxfroggy.com
