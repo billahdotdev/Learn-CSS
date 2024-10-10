@@ -184,11 +184,11 @@ You can include CSS in three ways:
 2. Internal CSS: Inside a <style> tag within the <head> section of an HTML document.
 3. External CSS: By linking to an external CSS file using the <link> tag.
 
-Example 1: Inline CSS
+*Example 1: Inline CSS*
 
           <p style="color: red; font-size: 20px;">This is a red paragraph.</p>
           
-Example 2: Internal CSS
+*Example 2: Internal CSS*
 
           <!DOCTYPE html>
           <html>
@@ -205,7 +205,7 @@ Example 2: Internal CSS
           </body>
           </html>
           
-Example 3: External CSS
+*Example 3: External CSS*
 
           <!DOCTYPE html>
           <html>
