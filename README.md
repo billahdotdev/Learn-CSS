@@ -177,7 +177,7 @@ CSS Syntax:
         }
 
 
-# Applying CSS to an HTML File
+# 1. Applying CSS to an HTML File
 You can include CSS in three ways:
 
 1. Inline CSS: Directly within an HTML tag using the style attribute.
@@ -224,7 +224,60 @@ In the styles.css file:
             font-size: 22px;
           }
 
+# 2. CSS Selectors
+Selectors are used to target HTML elements to style them. Here are some common types of CSS selectors:
 
+Element Selector: Targets an element by its tag name.
+
+css
+Copy code
+p {
+  color: blue;
+}
+This will style all <p> tags.
+Class Selector: Targets elements with a specific class.
+
+css
+Copy code
+.my-class {
+  color: red;
+}
+HTML:
+html
+Copy code
+<p class="my-class">This text is red.</p>
+ID Selector: Targets an element with a specific ID.
+
+css
+Copy code
+#my-id {
+  color: green;
+}
+HTML:
+html
+Copy code
+<p id="my-id">This text is green.</p>
+Universal Selector: Targets all elements on the page.
+
+css
+Copy code
+* {
+  color: black;
+}
+Grouping Selectors: Combine multiple selectors to apply the same styles.
+
+css
+Copy code
+h1, h2, h3 {
+  color: purple;
+}
+Descendant Selector: Selects elements inside another element.
+
+css
+Copy code
+div p {
+  color: blue;
+}
 
 
 # Where can I start learning CSS?
