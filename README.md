@@ -170,3 +170,18 @@
 ### Properties: Specify the aspects of the element you want to style (like color, size, etc.).
 
 ### Values: Define how the properties should look (e.g., red, 16px, etc.).
+
+
+# Example:
+
+        p {
+          color: blue;
+          font-size: 16px;
+        }
+This rule will style all <p> elements to have blue text and a font size of 16px.
+
+CSS Syntax:
+
+        selector {
+          property: value;
+        }
