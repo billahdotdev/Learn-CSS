@@ -149,17 +149,7 @@
           box-shadow: 0px 15px 25px rgba(16,16,16,0.25);
         }
 
-# Where can I start learning CSS?
 
-### 1. [FreeCodeCamp](https://www.freecodecamp.org/)
-### 2. [MDN Web Docs (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-### 3. [CSS-Tricks](https://css-tricks.com/)
-### 4. [The Odin Project](https://www.theodinproject.com/lessons/foundations-intro-to-css)
-### 5. [CSS Grid Garden](https://cssgridgarden.com/)
-### 6. [Flexbox Froggy](https://flexboxfroggy.com/)
-### 7. [W3Schools](https://www.w3schools.com/css/default.asp)
-### 8. [YouTube: Traversy Media](https://www.youtube.com/watch?v=yfoY53QXEnI)
-***There are plenty of great resources out there!
 
   
 # How Does CSS Work?
@@ -185,3 +175,21 @@ CSS Syntax:
         selector {
           property: value;
         }
+
+
+
+
+
+
+
+# Where can I start learning CSS?
+
+### 1. [FreeCodeCamp](https://www.freecodecamp.org/)
+### 2. [MDN Web Docs (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+### 3. [CSS-Tricks](https://css-tricks.com/)
+### 4. [The Odin Project](https://www.theodinproject.com/lessons/foundations-intro-to-css)
+### 5. [CSS Grid Garden](https://cssgridgarden.com/)
+### 6. [Flexbox Froggy](https://flexboxfroggy.com/)
+### 7. [W3Schools](https://www.w3schools.com/css/default.asp)
+### 8. [YouTube: Traversy Media](https://www.youtube.com/watch?v=yfoY53QXEnI)
+***There are plenty of great resources out there!
