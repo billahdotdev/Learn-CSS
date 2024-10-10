@@ -150,7 +150,31 @@
         }
 
 # Where can I start learning CSS?
-### The
+
+### 1. FreeCodeCamp
+
+
+2. MDN Web Docs (Mozilla)
+URL: developer.mozilla.org
+
+3. CSS-Tricks
+URL: css-tricks.com
+
+4. The Odin Project
+URL: theodinproject.com
+
+5. CSS Grid Garden
+URL: cssgridgarden.com
+
+6. Flexbox Froggy
+URL: flexboxfroggy.com
+
+7. W3Schools
+URL: w3schools.com
+
+
+12. YouTube: Traversy Media
+URL: Traversy Media
 
   
 
