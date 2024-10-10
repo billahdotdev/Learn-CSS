@@ -158,8 +158,8 @@
 3. [CSS-Tricks](https://css-tricks.com/)
 URL: css-tricks.com
 
-4. The Odin Project
-URL: theodinproject.com
+4. [The Odin Project](https://www.theodinproject.com/lessons/foundations-intro-to-css)
+
 
 5. CSS Grid Garden
 URL: cssgridgarden.com
