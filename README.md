@@ -164,7 +164,7 @@
 ### 5. [CSS Grid Garden](https://cssgridgarden.com/)
 
 
-### 6. Flexbox Froggy
+### 6. [Flexbox Froggy](https://flexboxfroggy.com/)
 URL: flexboxfroggy.com
 
 ### 7. W3Schools
