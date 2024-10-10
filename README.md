@@ -178,7 +178,7 @@
           color: blue;
           font-size: 16px;
         }
-This rule will style all <p> elements to have blue text and a font size of 16px.
+This rule will style all p elements to have blue text and a font size of 16px.
 
 CSS Syntax:
 
