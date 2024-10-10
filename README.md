@@ -227,19 +227,20 @@ In the styles.css file:
 # B. CSS Selectors
 Selectors are used to target HTML elements to style them. Here are some common types of CSS selectors:
 
-Element Selector: Targets an element by its tag name.
+### Element Selector: Targets an element by its tag name.
 
-p {
-  color: blue;
-}
+    p {
+      color: blue;
+    }
 This will style all <p> tags.
-Class Selector: Targets elements with a specific class.
 
-.my-class {
-  color: red;
-}
-HTML:
-<p class="my-class">This text is red.</p>
+### Class Selector: Targets elements with a specific class.
+
+      .my-class {
+        color: red;
+      }
+      HTML:
+      <p class="my-class">This text is red.</p>
 ID Selector: Targets an element with a specific ID.
 
 #my-id {
