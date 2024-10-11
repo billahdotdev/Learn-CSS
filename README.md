@@ -388,6 +388,50 @@ Example:
 
 # G: CSS Grid: A two-dimensional layout system for creating complex layouts.
 
+CSS Grid is a powerful layout system that allows you to create two-dimensional grids. You can define both rows and columns to structure your content.
+Basic Setup:
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+      grid-template-rows: 100px auto; /* First row is fixed at 100px, the second is auto */
+      gap: 10px; /* Space between grid items */
+    }
+    
+HTML:
+
+      <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+      </div>
+      
+Explanation:
+    • grid-template-columns: Defines the columns, here it's 3 equal-width columns.
+    • grid-template-rows: Defines the row sizes.
+    • gap: Space between items in the grid.
+
+    
+Advanced Grid Layout:
+You can create more complex grid structures with different sizes for rows and columns, and control how items span across multiple rows or columns.
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 100px 200px;
+        gap: 15px;
+      }
+
+      .item1 {
+        grid-column: span 2; /* Spans across two columns */
+      }
+      
+      .item2 {
+        grid-row: span 2; /* Spans across two rows */
+      }
+
   
 # H: Transitions and Animations: Add movement or changes over time.
 
