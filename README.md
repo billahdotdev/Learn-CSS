@@ -787,7 +787,7 @@ Consider using variables for frequently used properties like colors, fonts, and 
 
 
 
-# Where can I start learning CSS?
+# deep dive into CSS?
 
 ### 1. [FreeCodeCamp](https://www.freecodecamp.org/)
 ### 2. [MDN Web Docs (Mozilla)](https://developer.mozilla.org/en-US/docs/Web/CSS)
