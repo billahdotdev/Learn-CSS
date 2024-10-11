@@ -296,6 +296,7 @@ CSS Example with Box Model:
 
     div {
       width: 200px;
+      height: 20px;
       padding: 10px;
       border: 5px solid red;
       margin: 10px;
