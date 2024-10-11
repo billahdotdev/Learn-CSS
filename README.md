@@ -594,6 +594,62 @@ The ball moves up (translateY(-200px)) at the 50% point of the animation, and re
 The animation property applies the bounce animation to the ball, running continuously (infinite).
 
 
+
+### differences between transitions and animations in CSS:
+
+Transitions:
+
+When: Happens when a property changes from one value to another (e.g., hovering over an element).
+
+How: It only works on changes that are triggered by an event, like hovering or clicking.
+
+Example: When you hover over a button, its background color changes smoothly.
+
+Control: You can control the timing (duration) and easing (smoothness) but not much else.
+
+
+Example:
+
+    button {
+      background-color: blue;
+      transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: green;
+    }
+
+
+    
+Animations:
+
+When: Can run continuously or trigger at any point, without needing an event.
+
+How: More powerful, allows multiple steps or keyframes, and can animate multiple properties simultaneously.
+
+Example: A bouncing ball, or a logo that moves across the screen.
+
+Control: Full control over keyframes, durations, timing, delays, and more.
+
+
+Example:
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+    
+    .ball {
+      animation: bounce 1s infinite;
+    }
+    
+Summary:
+
+Transitions = Triggered by events (e.g., hover, focus), simple, only between two states.
+
+Animations = More complex, runs on a timeline, can loop, and has more control over multiple states and properties.
+
+
 # I: CSS Variables: Store reusable values for properties.
 
 
