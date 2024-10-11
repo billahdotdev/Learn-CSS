@@ -284,6 +284,11 @@ Everything in HTML is a box, and CSS controls how these boxes are displayed. The
     
 Here’s a diagram of the box model:
 
+
+![Logo](images/logo.png)
+
+
+
 +---------------------------+
 |   Margin                  |
 |  +-----------------------+|
