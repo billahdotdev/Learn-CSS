@@ -1,11 +1,11 @@
                                            
 # Learn CSS (Cascading Style Sheets)      
 
-# What is CSS?     
+## What is CSS?     
 ### CSS stands for Cascading Style Sheets.  It's a computer language specifically used to style and layout web pages.  Imagine CSS as the makeup for websites!  It allows you to change the fonts, colors, and layout to create a visually appealing website.
 
 
-# Here are some familiar terms to get you comfortable before starting CSS:       
+## Here are some familiar terms to get you comfortable before starting CSS:       
 
 1. CSS (Cascading Style Sheets): A language used to describe the style of HTML documents.
 2. Selector: The part of a CSS rule that specifies which HTML elements the styles apply to.
@@ -109,7 +109,7 @@
 100. Content Property: Used with pseudo-elements to insert generated content.
 
 
-# What does the CSS code look like?
+## What does the CSS code look like?
 
         * {
           margin: 0;
@@ -152,7 +152,7 @@
 
 
   
-# How Does CSS Work?
+## How Does CSS Work?
 CSS controls the visual appearance of HTML elements by associating CSS rules with HTML elements. A CSS rule typically consists of:
 
 1. Selectors: Identify the HTML elements you want to style.
@@ -162,7 +162,7 @@ CSS controls the visual appearance of HTML elements by associating CSS rules wit
 3. Values: Define how the properties should look (e.g., red, 16px, etc.).
 
 
-# Example:
+### Example:
 
         p {
           color: blue;
@@ -177,7 +177,7 @@ CSS Syntax:
         }
 
 
-# A. Applying CSS to an HTML File
+## A. Applying CSS to an HTML File
 You can include CSS in three ways:
 
 1. Inline CSS: Directly within an HTML tag using the style attribute.
@@ -224,7 +224,7 @@ In the styles.css file:
             font-size: 22px;
           }
 
-# B. CSS Selectors
+## B. CSS Selectors
 Selectors are used to target HTML elements to style them. Here are some common types of CSS selectors:
 
 ### Element Selector: Targets an element by its tag name.
@@ -269,7 +269,7 @@ Descendant Selector: Selects elements inside another element.
         color: blue;
       }
 
-# C: Box Model
+## C: Box Model
 
 Everything in HTML is a box, and CSS controls how these boxes are displayed. The box model consists of:
 
@@ -287,11 +287,6 @@ Here’s a diagram of the box model:
 ![CSS Box Model](CSS-Box-Model-Images/css-box-model2.jpeg)
 
 
-
-
-
-
-
 CSS Example with Box Model:
 
     div {
@@ -304,7 +299,7 @@ CSS Example with Box Model:
 
 
 
-# D: Positioning Elements
+## D: Positioning Elements
 
 CSS allows you to control the layout and positioning of elements with various properties.
 
@@ -346,7 +341,7 @@ Positioning Types:
            }
 
 
-# E: Flexbox
+## E: Flexbox
 Flexbox is a layout model that allows you to create flexible and responsive layouts. It works by assigning a container to use display: flex; and then controlling the alignment, direction, and spacing of items inside it.
 
 Flexbox Basic Setup:
@@ -372,7 +367,7 @@ Example:
 
 
 
-# F: Responsive Design with Media Queries
+## F: Responsive Design with Media Queries
 Responsive design adjusts the layout based on the device’s screen size. You can use media queries to apply different styles for different screen sizes.
 
 Example:
@@ -386,7 +381,7 @@ Example:
 
 
 
-# G: CSS Grid: A two-dimensional layout system for creating complex layouts.
+## G: CSS Grid: A two-dimensional layout system for creating complex layouts.
 
 CSS Grid is a powerful layout system that allows you to create two-dimensional grids. You can define both rows and columns to structure your content.
 Basic Setup:
@@ -456,7 +451,7 @@ When to Use Grid:
   • For equal-sized or asymmetrical elements that align in both directions.
   
   
-# H: Transitions and Animations: Add movement or changes over time.
+## H: Transitions and Animations: Add movement or changes over time.
 
 ### 1. CSS Transitions
    
@@ -695,7 +690,7 @@ In this example:
   • When the box is hovered over, its background color smoothly transitions to a different color.
 
 
-# I: CSS Variables: Store reusable values for properties.
+## I: CSS Variables: Store reusable values for properties.
 
 CSS variables, also known as custom properties, allow you to define reusable values in your CSS and make your stylesheets more flexible and easier to maintain. They are especially useful when you want to create a consistent design system, as they let you store values like colors, fonts, spacing, etc., in a central location and use them throughout your CSS.
 
