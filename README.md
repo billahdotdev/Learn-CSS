@@ -435,6 +435,26 @@ You can create more complex grid structures with different sizes for rows and co
         grid-row: span 2; /* Spans across two rows */
       }
 
+### CSS Flexbox vs. CSS Grid
+
+  • Flexbox is ideal for one-dimensional layouts (either rows or columns).
+  
+  • CSS Grid is better suited for two-dimensional layouts (both rows and columns).
+  
+  
+When to Use Flexbox:
+
+  • When the layout direction is either horizontal (row) or vertical (column).
+  
+  • Responsive layouts where items adjust based on screen size.
+  
+    
+When to Use Grid:
+
+  • When you need to create complex layouts with both columns and rows.
+  
+  • For equal-sized or asymmetrical elements that align in both directions.
+  
   
 # H: Transitions and Animations: Add movement or changes over time.
 
