@@ -304,6 +304,47 @@ CSS Example with Box Model:
 
 
 
+# D: Positioning Elements
+
+CSS allows you to control the layout and positioning of elements with various properties.
+
+
+Positioning Types:
+    1. Static (default): Elements flow in the document as they normally would.
+      
+         div {
+           position: static;
+         }
+  2. Relative: The element is positioned relative to its normal position.
+   
+         div {
+           position: relative;
+           top: 10px;
+           left: 20px;
+         }
+  3. Absolute: The element is positioned relative to its closest positioned (non-static) ancestor.
+    
+           div {
+             position: absolute;
+             top: 50px;
+             right: 30px;
+           }
+  4. Fixed: The element is positioned relative to the viewport (browser window).
+     
+           div {
+             position: fixed;
+             bottom: 0;
+             right: 0;
+           }
+  5. Sticky: The element is treated as relative until it reaches a defined scroll position, after which it becomes fixed.
+    
+           div {
+             position: sticky;
+             top: 0;
+           }
+
+
+
 
 # Where can I start learning CSS?
 
