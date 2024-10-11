@@ -458,6 +458,62 @@ When to Use Grid:
   
 # H: Transitions and Animations: Add movement or changes over time.
 
+1. CSS Transitions
+   
+CSS Transitions are used to create smooth changes between two states of an element. For example, you might want a button to change color when you hover over it, but you want the color change to happen gradually rather than instantly.
+
+Basic Syntax of Transitions:
+
+    selector {
+      property: initial_value;
+      transition: property duration timing-function delay;
+    }
+    
+property: The CSS property that you want to animate.
+
+duration: How long the transition takes (e.g., 1s for 1 second, 500ms for 500 milliseconds).
+
+timing-function: Defines the speed curve of the transition (e.g., ease, linear, ease-in-out).
+
+delay: The delay before the transition starts (optional).
+
+
+Example: Button Hover Effect
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CSS Transition</title>
+      <style>
+        .button {
+          background-color: #008CBA;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.5s ease, transform 0.3s ease;
+        }
+    
+        .button:hover {
+          background-color: #005f73;
+          transform: scale(1.1); /* Slightly enlarges the button */
+        }
+      </style>
+    </head>
+    <body>
+      <button class="button">Hover me!</button>
+    </body>
+    </html>
+
+    
+Explanation:
+
+When the button is hovered over, the background color transitions over 0.5s and the button grows slightly (scaled up by 1.1) with a 0.3s transition.
+The transition property is used to define which properties are animated (in this case, background-color and transform).
+
 
 # I: CSS Variables: Store reusable values for properties.
 
