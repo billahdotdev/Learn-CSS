@@ -372,6 +372,20 @@ Example:
 
 
 
+# F: Responsive Design with Media Queries
+Responsive design adjusts the layout based on the device’s screen size. You can use media queries to apply different styles for different screen sizes.
+
+Example:
+
+        /* For devices with a max width of 600px */
+        @media only screen and (max-width: 600px) {
+          .container {
+            flex-direction: column; /* Stacks the items vertically */
+          }
+        }
+
+
+
 
 # Where can I start learning CSS?
 
