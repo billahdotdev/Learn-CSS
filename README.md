@@ -284,6 +284,7 @@ Everything in HTML is a box, and CSS controls how these boxes are displayed. The
     
 Here’s a diagram of the box model:
 
+![Alt text](path/to/your/image.png)
 
 
 
