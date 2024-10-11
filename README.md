@@ -272,10 +272,14 @@ Descendant Selector: Selects elements inside another element.
 # C: Box Model
 
 Everything in HTML is a box, and CSS controls how these boxes are displayed. The box model consists of:
-    1. Content: The actual content of the element (text, image, etc.).
-    2. Padding: Space between the content and the border.
-    3. Border: The line surrounding the element.
-    4. Margin: Space between the border and adjacent elements.
+
+1. Content: The actual content of the element (text, image, etc.).
+
+2. Padding: Space between the content and the border.
+
+3. Border: The line surrounding the element.
+
+4. Margin: Space between the border and adjacent elements.
 
     
 Here’s a diagram of the box model:
