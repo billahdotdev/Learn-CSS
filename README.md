@@ -417,7 +417,7 @@ Explanation:
   • gap: Space between items in the grid.
 
     
-Advanced Grid Layout:
+### Advanced Grid Layout:
 You can create more complex grid structures with different sizes for rows and columns, and control how items span across multiple rows or columns.
 
       .container {
