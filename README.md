@@ -346,6 +346,30 @@ Positioning Types:
            }
 
 
+# E: Flexbox
+Flexbox is a layout model that allows you to create flexible and responsive layouts. It works by assigning a container to use display: flex; and then controlling the alignment, direction, and spacing of items inside it.
+
+Flexbox Basic Setup:
+
+      .container {
+        display: flex;
+        justify-content: space-between; /* Align items horizontally */
+        align-items: center; /* Align items vertically */
+      }
+      
+      .item {
+        flex: 1; /* Each item takes equal space */
+      }
+Example:
+html
+Copy code
+<div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+
 
 
 # Where can I start learning CSS?
