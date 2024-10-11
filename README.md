@@ -387,9 +387,14 @@ Example:
 
 
 # G: Advanced Topics
-    1. CSS Grid: A two-dimensional layout system for creating complex layouts.
-    2. Transitions and Animations: Add movement or changes over time.
-    3. CSS Variables: Store reusable values for properties.
+
+  1. CSS Grid: A two-dimensional layout system for creating complex layouts.
+  
+  2. Transitions and Animations: Add movement or changes over time.
+
+  3. CSS Variables: Store reusable values for properties.
+
+
 Let me know which area you'd like to dive deeper into next or if you have any questions about what we've covered!
 4o mini
 You said:
