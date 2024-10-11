@@ -360,14 +360,15 @@ Flexbox Basic Setup:
       .item {
         flex: 1; /* Each item takes equal space */
       }
+
+      
 Example:
-html
-Copy code
-<div class="container">
-  <div class="item">Item 1</div>
-  <div class="item">Item 2</div>
-  <div class="item">Item 3</div>
-</div>
+
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
 
 
 
