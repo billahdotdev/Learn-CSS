@@ -697,6 +697,93 @@ In this example:
 
 # I: CSS Variables: Store reusable values for properties.
 
+CSS variables, also known as custom properties, allow you to define reusable values in your CSS and make your stylesheets more flexible and easier to maintain. They are especially useful when you want to create a consistent design system, as they let you store values like colors, fonts, spacing, etc., in a central location and use them throughout your CSS.
+
+### How to Define CSS Variables
+CSS variables are defined inside a selector, typically the :root selector, which makes them globally available throughout the document.
+
+
+    :root {
+      --primary-color: #3498db;
+      --secondary-color: #2ecc71;
+      --font-size: 16px;
+      --padding: 20px;
+    }
+
+    
+Using CSS Variables
+Once defined, you can use these variables anywhere in your CSS using the var() function.
+
+
+        body {
+          background-color: var(--primary-color);
+          font-size: var(--font-size);
+          padding: var(--padding);
+        }
+        
+        h1 {
+          color: var(--secondary-color);
+        }
+
+
+        
+### Benefits of CSS Variables
+
+Consistency: Centralize design values and reuse them across your styles.
+
+Maintainability: Easily update multiple styles by changing the variable in one place.
+
+Dynamic changes: CSS variables can be modified at runtime using JavaScript.
+
+
+### Overriding CSS Variables
+
+You can also override CSS variables within different parts of your document (e.g., within specific sections or elements).
+
+
+    .button {
+      --primary-color: #e74c3c;  /* Override for buttons */
+      background-color: var(--primary-color);
+      color: white;
+    }
+
+
+    
+### Using CSS Variables with Media Queries
+
+CSS variables can also be adapted based on breakpoints using media queries.
+
+
+      :root {
+        --font-size: 16px;
+      }
+      
+      @media (min-width: 768px) {
+        :root {
+          --font-size: 18px;
+        }
+      }
+      
+      body {
+        font-size: var(--font-size);
+      }
+
+      
+### JavaScript Interaction
+
+You can access and modify CSS variables with JavaScript for dynamic changes:
+
+
+      document.documentElement.style.setProperty('--primary-color', '#e67e22');
+
+      
+Best Practices
+
+Use meaningful names for your variables, like --primary-color, --font-size-base, etc.
+
+Group variables together in your CSS for better organization.
+
+Consider using variables for frequently used properties like colors, fonts, and spacing.
 
 
 
