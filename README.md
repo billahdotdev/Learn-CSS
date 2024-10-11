@@ -298,7 +298,14 @@ Here’s a diagram of the box model:
 +---------------------------+
 
 
+CSS Example with Box Model:
 
+    div {
+      width: 300px;
+      padding: 20px;
+      border: 5px solid black;
+      margin: 10px;
+    }
 
 
 
