@@ -649,6 +649,51 @@ Transitions = Triggered by events (e.g., hover, focus), simple, only between two
 
 Animations = More complex, runs on a timeline, can loop, and has more control over multiple states and properties.
 
+### Combining Transitions and Animations
+
+You can combine both transitions and animations on the same element for different effects.
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Combined Example</title>
+      <style>
+        .box {
+          width: 100px;
+          height: 100px;
+          background-color: #008CBA;
+          transition: background-color 0.5s ease; /* Transition for color change */
+          animation: move 3s ease-in-out infinite; /* Animation for movement */
+        }
+    
+        @keyframes move {
+          0%, 100% {
+            transform: translateX(0);
+          }
+          50% {
+            transform: translateX(200px);
+          }
+        }
+    
+        .box:hover {
+          background-color: #ff6347; /* Change color on hover */
+        }
+      </style>
+    </head>
+    <body>
+      <div class="box"></div>
+    </body>
+    </html>
+
+    
+In this example:
+
+  • The box moves horizontally in a loop (due to the @keyframes animation).
+  
+  • When the box is hovered over, its background color smoothly transitions to a different color.
+
 
 # I: CSS Variables: Store reusable values for properties.
 
