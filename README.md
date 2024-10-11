@@ -310,7 +310,9 @@ CSS allows you to control the layout and positioning of elements with various pr
 
 
 Positioning Types:
-    1. Static (default): Elements flow in the document as they normally would.
+
+
+  1. Static (default): Elements flow in the document as they normally would.
       
          div {
            position: static;
