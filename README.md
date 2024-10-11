@@ -520,66 +520,77 @@ The transition property is used to define which properties are animated (in this
 CSS Animations are more powerful than transitions, allowing for multiple keyframes, more complex animations, and looping effects. While transitions only work when a state changes (like hover), animations can run continuously or be triggered by events.
 
 Basic Syntax of Animations:
-css
-Copy code
-selector {
-  animation: animation-name duration timing-function delay iteration-count direction;
-}
 
-@keyframes animation-name {
-  0% {
-    property: start_value;
-  }
-  50% {
-    property: middle_value;
-  }
-  100% {
-    property: end_value;
-  }
-}
-animation-name: The name of the animation (which corresponds to a @keyframes rule).
-duration: The time the animation takes to complete.
-timing-function: The speed curve of the animation.
-delay: How long to wait before the animation starts.
-iteration-count: How many times the animation runs (infinite for continuous loops).
-direction: Defines whether the animation should alternate direction on each cycle (normal, reverse, alternate).
-Example: Bouncing Ball Animation
-html
-Copy code
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Animation</title>
-  <style>
-    .ball {
-      width: 50px;
-      height: 50px;
-      background-color: #ff6347;
-      border-radius: 50%;
-      position: relative;
-      animation: bounce 2s ease-in-out infinite;
+    selector {
+      animation: animation-name duration timing-function delay iteration-count direction;
     }
-
-    @keyframes bounce {
-      0%, 100% {
-        transform: translateY(0);
+    
+    @keyframes animation-name {
+      0% {
+        property: start_value;
       }
       50% {
-        transform: translateY(-200px);
+        property: middle_value;
+      }
+      100% {
+        property: end_value;
       }
     }
-  </style>
-</head>
-<body>
-  <div class="ball"></div>
-</body>
-</html>
+
+    
+animation-name: The name of the animation (which corresponds to a @keyframes rule).
+
+duration: The time the animation takes to complete.
+
+timing-function: The speed curve of the animation.
+
+delay: How long to wait before the animation starts.
+
+iteration-count: How many times the animation runs (infinite for continuous loops).
+
+direction: Defines whether the animation should alternate direction on each cycle (normal, reverse, alternate).
+
+
+Example: Bouncing Ball Animation
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CSS Animation</title>
+      <style>
+        .ball {
+          width: 50px;
+          height: 50px;
+          background-color: #ff6347;
+          border-radius: 50%;
+          position: relative;
+          animation: bounce 2s ease-in-out infinite;
+        }
+    
+        @keyframes bounce {
+          0%, 100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-200px);
+          }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="ball"></div>
+    </body>
+    </html>
+
+    
 Explanation:
 
 The @keyframes rule defines the animation named bounce.
+
 The ball moves up (translateY(-200px)) at the 50% point of the animation, and returns to its original position at 0% and 100% (end of the cycle).
+
 The animation property applies the bounce animation to the ball, running continuously (infinite).
 
 
