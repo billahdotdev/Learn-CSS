@@ -286,12 +286,12 @@ Here’s a diagram of the box model:
 
 
 
-![Project Screenshot](CSS-Box-Model Images/CSS-BOX-MODEL1.jpg)
+![Project Screenshot](CSS-Box-Model-Images/css-box-model1.jpg)
 
 
 
 
-![CSS Box Model](CSS-Box-Model Images/CSS-BOX-MODEL1.jpg)
+![CSS Box Model](CSS-Box-Model-Images/css-box-model2.jpeg)
 
 
 
