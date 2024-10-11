@@ -15,7 +15,7 @@
 6. Declaration Block: A group of declarations enclosed in curly braces.
 7. Rule: A selector followed by a declaration block.
 8. Inline Style: CSS written directly in the HTML element using the style attribute.
-9. Internal Style Sheet: CSS written inside a <style> tag in the head of an HTML document.
+9. Internal Style Sheet: CSS written inside a `<style>` tag in the head of an HTML document.
 10. External Style Sheet: CSS written in a separate .css file and linked to the HTML document.
 11. Class Selector: A selector that targets elements with a specific class attribute, starting with a dot (.).
 12. ID Selector: A selector that targets an element with a specific ID attribute, starting with a hash (#).
