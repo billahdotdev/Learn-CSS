@@ -181,8 +181,8 @@ CSS Syntax:
 You can include CSS in three ways:
 
 1. Inline CSS: Directly within an HTML tag using the style attribute.
-2. Internal CSS: Inside a <style> tag within the <head> section of an HTML document.
-3. External CSS: By linking to an external CSS file using the <link> tag. (Recommended)
+2. Internal CSS: Inside a "<style>" tag within the "<head>" section of an HTML document.
+3. External CSS: By linking to an external CSS file using the "<link>" tag. (Recommended)
 
 *Example 1: Inline CSS*
 
