@@ -295,9 +295,9 @@ Here’s a diagram of the box model:
 CSS Example with Box Model:
 
     div {
-      width: 300px;
+      width: 200px;
       padding: 20px;
-      border: 5px solid black;
+      border: 5px solid red;
       margin: 10px;
     }
 
