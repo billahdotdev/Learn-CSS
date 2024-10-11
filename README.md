@@ -409,9 +409,11 @@ HTML:
       </div>
       
 Explanation:
-    • grid-template-columns: Defines the columns, here it's 3 equal-width columns.
-    • grid-template-rows: Defines the row sizes.
-    • gap: Space between items in the grid.
+  • grid-template-columns: Defines the columns, here it's 3 equal-width columns.
+  
+  • grid-template-rows: Defines the row sizes.
+  
+  • gap: Space between items in the grid.
 
     
 Advanced Grid Layout:
