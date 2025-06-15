@@ -4,7 +4,7 @@
 ### CSS stands for Cascading Style Sheets.  It's a computer language specifically used to style and layout web pages.  Imagine CSS as the makeup for websites!  It allows you to change the fonts, colors, and layout to create a visually appealing website.
 
 
-## Here are some familiar terms to get you comfortable before starting CSS:       
+## Here are some familiar terms to get you comfortable before starting CSS:         
 
 1. CSS (Cascading Style Sheets): A language used to describe the style of HTML documents.
 2. Selector: The part of a CSS rule that specifies which HTML elements the styles apply to.
