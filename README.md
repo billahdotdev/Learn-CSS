@@ -791,4 +791,6 @@ Consider using variables for frequently used properties like colors, fonts, and 
 ### 6. [Flexbox Froggy](https://flexboxfroggy.com/)
 ### 7. [W3Schools](https://www.w3schools.com/css/default.asp)
 ### 8. [YouTube: Traversy Media](https://www.youtube.com/watch?v=yfoY53QXEnI)
-***There are plenty of great resources out there!
+
+***There are plenty of great resources out there!***
+
